@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a007ae+22,a007ae+22,38088a+100 */
+			background: rgb(160,7,174); /* Old browsers */
+			background: -moz-linear-gradient(left,  rgba(160,7,174,1) 22%, rgba(160,7,174,1) 22%, rgba(56,8,138,1) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(left,  rgba(160,7,174,1) 22%,rgba(160,7,174,1) 22%,rgba(56,8,138,1) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to right,  rgba(160,7,174,1) 22%,rgba(160,7,174,1) 22%,rgba(56,8,138,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a007ae', endColorstr='#38088a',GradientType=1 ); /* IE6-9 */ 
+}
+
+input{
+  margin: 10px auto;
+  display: block;
+}
+
+.contenedor{
+  width: 40%;
+  margin: auto;
+}
+.fas, .far{
+  font-size: 50px;
+  color:#939393;
+}
+
+.ejercicio{
+  width: 50%;
+  max-width: 800px;
+  margin: 25px auto;
+  padding: 40px 40px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.boton{
+  width: 120px;
+  /* background-color: rgb(160,7,174); */
+  background-color: #f16cff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.boton:hover{
+  background-color: #f192fc;
+}
+
+.boton:focus{
+  background-color: white;
+  color: #5d5d5d;
+  border: 1px solid #F16CFF;
+}
+
+.ejercicio__titulo{
+  margin: 15px 0px;
+}
+
+.resultado{
+  display: inline-block;
+  margin: auto;
+  text-align: left;
+}
+
+
+@media (max-width: 1024px) {
+  .ejercicio{
+    width: 80%;
+    
+    
+  }
+  @media (max-width: 768px) {
+    .ejercicio{
+      width: 90%;
+    }
+  };
+
